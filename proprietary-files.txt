@@ -1,0 +1,67 @@
+# Galaxy Fold 2 (f2q) Proprietary Files List
+# Extract using: ./extract-files.sh from device/samsung/f2q
+
+# Format: path_in_device:path_in_vendor
+# Example: system/lib/libcamera.so:lib/libcamera.so
+
+# AUDIO
+lib/hw/audio.primary.sm8250.so:hw/audio.primary.so
+lib64/hw/audio.primary.sm8250.so:lib64/hw/audio.primary.so
+lib/libaudio-resampler.so:lib/libaudio-resampler.so
+lib64/libaudio-resampler.so:lib64/libaudio-resampler.so
+lib/libqtigef.so:lib/libqtigef.so
+lib64/libqtigef.so:lib64/libqtigef.so
+
+# CAMERA
+lib/hw/camera.sm8250.so:hw/camera.so
+lib64/hw/camera.sm8250.so:lib64/hw/camera.so
+lib/libcamera_client.so:lib/libcamera_client.so
+lib64/libcamera_client.so:lib64/libcamera_client.so
+lib/libcamera_metadata.so:lib/libcamera_metadata.so
+lib64/libcamera_metadata.so:lib64/libcamera_metadata.so
+lib/libmmcamera_core.so:lib/libmmcamera_core.so
+lib64/libmmcamera_core.so:lib64/libmmcamera_core.so
+
+# DISPLAY & GRAPHICS
+lib/hw/gralloc.sm8250.so:hw/gralloc.so
+lib64/hw/gralloc.sm8250.so:lib64/hw/gralloc.so
+lib/libGLES_qcom.so:lib/libGLES_qcom.so
+lib64/libGLES_qcom.so:lib64/libGLES_qcom.so
+lib/libdrm.so:lib/libdrm.so
+lib64/libdrm.so:lib64/libdrm.so
+lib/libmm-omxcore.so:lib/libmm-omxcore.so
+lib64/libmm-omxcore.so:lib64/libmm-omxcore.so
+
+# SENSORS
+lib/hw/sensors.sm8250.so:hw/sensors.so
+lib64/hw/sensors.sm8250.so:lib64/hw/sensors.so
+lib/libsensor1.so:lib/libsensor1.so
+lib64/libsensor1.so:lib64/libsensor1.so
+
+# FINGERPRINT
+lib/hw/fingerprint.sm8250.so:hw/fingerprint.so
+lib64/hw/fingerprint.sm8250.so:lib64/hw/fingerprint.so
+
+# NFC
+lib/hw/nfc.sm8250.so:hw/nfc.so
+lib/libnfc.so:lib/libnfc.so
+lib/libnfc_jni.so:lib/libnfc_jni.so
+etc/nfcee_access.xml:etc/nfcee_access.xml
+
+# BLUETOOTH
+lib/libbt-vendor.so:lib/libbt-vendor.so
+lib64/libbt-vendor.so:lib64/libbt-vendor.so
+
+# QCOM COMMON LIBS
+lib/libqmi_cci.so:lib/libqmi_cci.so
+lib64/libqmi_cci.so:lib64/libqmi_cci.so
+lib/libqmi_client_qmux.so:lib/libqmi_client_qmux.so
+lib64/libqmi_client_qmux.so:lib64/libqmi_client_qmux.so
+lib/libqmi_common_so.so:lib/libqmi_common_so.so
+lib64/libqmi_common_so.so:lib64/libqmi_common_so.so
+
+# FIRMWARE
+etc/firmware/modem.mbn:etc/firmware/modem.mbn
+etc/firmware/adsp.mbn:etc/firmware/adsp.mbn
+etc/firmware/slpi.mbn:etc/firmware/slpi.mbn
+etc/firmware/venus.mbn:etc/firmware/venus.mbn

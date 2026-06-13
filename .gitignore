@@ -1,0 +1,30 @@
+# Compiled files
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Build output
+out/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Device specific
+extracted/
+temp/
+*.img
+*.bin
+
+# IMPORTANT: Keep proprietary files out of git
+propretary/lib/
+propretary/lib64/
+propretary/hw/
+propriary/etc/firmware/
